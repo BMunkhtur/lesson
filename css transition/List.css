@@ -1,0 +1,22 @@
+
+.col-5{
+    display: flex;
+    margin: auto;
+    width: 20%;
+    border: 1px solid green;
+    padding: 10px;
+    background-color: aqua;
+    transition: 4s;
+}
+.one:hover{
+    transform: scale(1.5);
+}
+.two:hover{
+    transform: scale(2);
+}
+.three:hover{
+    transform: scale(2.5);
+}
+.four:hover{
+    transform: scale(3);
+}
