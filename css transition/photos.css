@@ -1,0 +1,71 @@
+.cont{
+    padding: 30px;
+    background-color: rgb(68, 180, 131);
+    position: relative;
+}
+.row{
+    display: flex;}
+
+body{
+    max-width: 400px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    filter:grayscale(100%);
+    transition: all 1s;
+}
+.col-3:hover .overlay {
+    opacity: 0;
+}
+.col-3:hover img {
+    opacity: 1;
+    filter:grayscale(0%);
+}
+
+.col-3 {
+    width: calc(100% / 3);
+    height: 100px;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+}
+.one:hover .overlay{
+    opacity: 0;
+    transform: translate(-50%,0%);
+}
+.three:hover .overlay{
+    opacity: 0;
+    transform: translate(50%,0%);
+}
+.four:hover .overlay{
+    opacity: 0;
+    transform: translate(-50%,70%);
+}
+.five:hover .overlay{
+    opacity: 0;
+    transform: translate(0%,100%);
+}
+.six:hover .overlay{
+    opacity: 0;
+    transform: translate(50%,70%);
+}
+.seven:hover .overlay{
+    opacity: 0;
+    transform: translate(-50%,-70%);
+}
+.eight:hover .overlay{
+    opacity: 0;
+    transform: translate(-0%, -100%);
+}
+.nine:hover .overlay{
+    opacity: 0;
+    transform: translate(70%,-50%);}
+
