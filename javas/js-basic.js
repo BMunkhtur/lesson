@@ -230,18 +230,57 @@ let strippedString = rawString.trim (); */
 // console.log ("tanii nas ", too + 10)
 // number.isInteger (0) // buhel too eshiig shalgana
 
-let onoo =""
-onoo = prompt ("heden onoo awsan be")
-let on =""
-let = Number(onoo);
-let = Number(on)
-onoo = prompt ("heden oniih ve");
+// let onoo =""
+// onoo = prompt ("heden onoo awsan be")
+// let on =""
+// let = Number(onoo);
+// let = Number(on)
+// onoo = prompt ("heden oniih ve");
 
-function generateRandomInteger (on, onoo){
-    return Math.floor(Math.random() (onoo - on + 1)) + onoo
-}
+// function generateRandomInteger (on, onoo){
+//     return Math.floor(Math.random() (onoo - on + 1)) + onoo
+//random
+//math.random() 0......1 hooorond
 
+// console.log(math.random());
 
+// //loop
+// let count = 1;
+// while (count <= 10) {
+// console.log(count);
+// // count = count + 1;
+// // }
 
+// let a = parseInt(prompt("za  hussen toogoo bich"));
 
+// let isPrime = true;
+
+// if(a === 2){
+//     console.log(`$ {a} chni anhnii too bnshd uruuu bodoj chadkunuu.`);
+// }
+// else{
+//     let i = 2;
+//     while (i < a){
+//         if(a % i === 0){
+//            isPrime =false;
+//            break
+//         }
+//         i++;
+//     }
+//     if (isPrime){
+//         console.log ("mun")
+//     } else{
+//         console.log (bish)
+//     }
+// }
+
+// let a = prompt("hussen toogoo bichee haamayoa");
+//     let b, sum = 0;
+//     while(a > 0)
+//     {
+//        b = a % 10 
+//       sum = sum * 10 + b;
+//       a = parseInt(a / 10);
+//     }
+//     console.log(sum);
 
