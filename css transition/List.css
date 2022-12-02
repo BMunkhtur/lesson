@@ -1,22 +1,17 @@
-
-.col-5{
-    display: flex;
-    margin: auto;
-    width: 20%;
-    border: 1px solid green;
-    padding: 10px;
+div{
     background-color: aqua;
-    transition: 4s;
+    width: 20%;
+    margin: auto;
 }
-.one:hover{
-    transform: scale(1.5);
+p{
+    border-top: solid 1px green;
+    border-bottom: solid 1px green;
+    padding: 10px;
+    margin: 0;
+    transition: all 3s;
+    color:gray;
 }
-.two:hover{
-    transform: scale(2);
-}
-.three:hover{
-    transform: scale(2.5);
-}
-.four:hover{
-    transform: scale(3);
+p:hover{
+    background-color: orangered;
+    font-size:40px;
 }
