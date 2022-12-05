@@ -1,4 +1,4 @@
-let rows = parseInt(prompt("too"));
+let rows = parseInt(prompt("pyramidiin undur"));
 {
     for (let i = 0; i < rows; i++)
     {
