@@ -16,24 +16,11 @@
   width: 800px;
   height: 100px;
 }
-.shp:checed {
+.shp:active {
   transition-property: width;
-  transition-duration: 4s;
+  transition-duration: 1s;
   transition-timing-function: linear;
-  transition-delay: 0.1s;
+  transition: 2s;
   width: 800px;
   height: 100px;
-}
-.content {
-  height: 300px;
-  max-height: 0px;
-  width: 300px;
-  background: blue;
-  transition: max-height 0.3s ease-in-out;
-}
-#check {
-  display: none;
-}
-#check:checked ~ .content {
-  max-height: 300px;
 }
