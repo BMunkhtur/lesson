@@ -1,21 +1,21 @@
 console.log("Ecommerce");
 
 //all variables
-const productList = document.querySelector(".productList")
+const productList = document.querySelector(".productList");
 
-let allProducts = []
+let allProducts = [];
 const getProducts = async () => {
-    const response = await fetch ("https://dummyjson.com/products")
-    const data = await response.json();
-    allProducts = data.products;
-    displayProduct()
-    console.log("Data:", data)
+  const response = await fetch("https://dummyjson.com/products");
+  const data = await response.json();
+  allProducts = data.products;
+  displayProduct();
+  console.log("Data:", data);
 };
 getProducts();
 
 const displayProduct = () => {
-    allProducts.forEach((product) => {
-    const item =  `<div class="col-2">
+  allProducts.forEach((product) => {
+    const item = `<div class="col-2">
         <div class="card"  style= "width:100%; m-5">
             <img 
                 style= "width:100%; height:200px;"
@@ -39,14 +39,13 @@ const displayProduct = () => {
             </div>
         </div>
         </div>
-    </div>`
+    </div>`;
     productList.innerHTML += item;
-   });
-}
+  });
+};
 // const arr = [1, 2 ,3 ,4];
 // const newArr = arr.map((a) => {
 //     return a * 3
 // })
 // console.log(newArr)
 displayProduct();
-
