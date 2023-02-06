@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  max-width: 1280px;
+  background: gray;
+}
+
+div {
+  justify-content: space-between;
+  font-size: 40px;
+
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+
+  justify-content: right;
+}
+
+li {
+  margin: 0;
+  padding: 10px;
+}
+
+ul li a {
+  display: flex;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.container {
+  width: 100%;
+
+  display: flex;
+}
+
+.row h1 {
+  font-size: 2.3rem;
+  margin-left: 20px;
+}
+
+.row p {
+  font-size: 1.3rem;
+  margin-left: 20px;
+}
+
+.col {
+  display: inline-flex;
+  padding: 10px;
+
+  width: calc(100% / 3.3);
+}
+
+.card {
+  border: 5px solid;
+  border-radius: 10px;
+  height: auto;
+}
+
+.header {
+  background: gray;
+  border: 1px solid gray;
+  padding: 10px;
+}
+.bagana {
+  font-size: 1.3rem;
+  padding: 20px 20px;
+  background: gray;
+}
+@media screen and (max-width: 600px) {
+  .nav .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
