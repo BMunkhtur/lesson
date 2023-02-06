@@ -1,50 +1,50 @@
 div {
-    box-sizing: border-box;
-    color: white;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    transition-property: top, left;
-    transition-duration: 1s, 2s, 2s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .box{
-    position: relative;
-    border: solid 1px grey;
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    box-shadow: 5px 10px 8px #888888;
-  }
-.cic{
-    background: blue;
-    z-index: 1;
-  }
-.cic1{
-    background: green;
-    transition-property: top, left;
-    transition-delay: 0s, 1s;
+  box-sizing: border-box;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition-property: top, left;
+  transition-duration: 1s, 2s, 2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.cic2{
-    background: red;
-    transition-delay: 0s, 0s, 0s;
+.box {
+  position: relative;
+  border: solid 1px grey;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  box-shadow: 5px 10px 8px #888888;
+}
+.cic {
+  background: blue;
+  z-index: 1;
+}
+.cic1 {
+  background: green;
+  transition-property: top, left;
+  transition-delay: 0s, 1s;
+}
+.cic2 {
+  background: red;
+  transition-delay: 0s, 0s, 0s;
 }
 .box:hover .cic {
-    top:0px;
-    left:0px
+  top: 0px;
+  left: 0px;
 }
 .box:hover .cic1 {
-    top: 80%;    
-    left:80%
+  top: 80%;
+  left: 80%;
 }
 .box:hover .cic2 {
-    background: orange;
-    border-radius: 0px;
-    left: 80%;
-    top: 0;
+  background: orange;
+  border-radius: 0px;
+  left: 80%;
+  top: 0;
 }
