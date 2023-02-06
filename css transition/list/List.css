@@ -1,0 +1,17 @@
+div{
+    background-color: aqua;
+    width: 20%;
+    margin: auto;
+}
+p{
+    border-top: solid 1px green;
+    border-bottom: solid 1px green;
+    padding: 10px;
+    margin: 0;
+    transition: all 3s;
+    color:gray;
+}
+p:hover{
+    background-color: orangered;
+    font-size:40px;
+}
