@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.col {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  margin: 300px auto;
+  padding: 50px, 50px, 50px, 50px;
+}
+
+h1 {
+  background: gray;
+  font-size: 36px;
+  color: wheat;
+  transition: 1s all;
+}
+h1:hover {
+  background: red;
+}
+.circle h3 {
+  position: relative;
+  border-radius: 50%;
+  background: red;
+  font-size: 28px;
+  margin: -80px 280px;
+  width: 80px;
+  color: wheat;
+  transition: 1s all;
+}
+.col:hover h3 {
+  /* position: absolute; */
+  overflow: hidden;
+  visibility: hidden;
+  transform: translate(-80px, 20px);
+  opacity: 0;
+
+  /* transform: translate(-20px,-20px); */
+}
+h3:hover,
+h1:hover .circle {
+  content: "";
+  background: white;
+  transition: 1s all;
+  visibility: hidden;
+  /* transform: translate(-40px,-80px); */
+}
