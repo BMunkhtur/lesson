@@ -1,0 +1,44 @@
+.container {
+  max-width: 1300px;
+  background-image: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+.shape {
+  width: 500px;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding: 20px;
+  background-color: rgb(203, 151, 203);
+  position: relative;
+  opacity: 0.5;
+}
+.shp {
+  border: 2px solid green;
+  margin: 10px;
+  padding: 10px;
+}
+.here {
+  margin-left: 500px;
+  color: white;
+  margin-top: -25px;
+}
+h1 {
+  margin-left: 360px;
+  color: white;
+}
+.urt {
+  width: 420px;
+}
+p {
+  color: white;
+}
+label {
+  color: white;
+}
+.deed {
+  position: absolute;
+  margin-top: -20px;
+}

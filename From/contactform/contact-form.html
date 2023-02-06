@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact-form</title>
+    <link rel="stylesheet" href="contact-form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="left-side-title">
+          <h1>General Information</h1>
+        </div>
+        <div class="left-side-form">
+          <form action="">
+            <div class="about-form">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <div class="left-side-form">
+              <input type="text" placeholder="Email" />
+              <input type="date" />
+              <input type="text" placeholder="Company" />
+              <select name="Position" id="position">
+                <option value="0">position</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="right-side-title">
+          <h1>Contact Details</h1>
+        </div>
+        <form action="">
+          <input type="text" placeholder="Street" />
+          <input type="text" placeholder="Additional Information" />
+          <div class="right-side-form">
+            <input type="text" placeholder="Zip code" />
+            <select name="street" id="place">
+              <option value="0">Place</option>
+              <option value="1">Place1</option>
+              <option value="2">Place2</option>
+            </select>
+          </div>
+          <select name="" id="country">
+            <option value="0">Country</option>
+            <option value="1">Mongolia</option>
+            <option value="2">China</option>
+          </select>
+          <input type="number" placeholder="code" />
+          <input type="number" placeholder="Phone Number" />
+          <div class="accept-input">
+            <input type="checkbox" value="accept" name="accept" />
+            <label for="accept"
+              >I do accept <a href="#">Terms and conditions</a> of your
+              site</label
+            >
+          </div>
+          <button type="submit">Register Badge</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
